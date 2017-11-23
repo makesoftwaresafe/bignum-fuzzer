@@ -1,0 +1,8 @@
+ar -M <<EOM
+CREATE $1
+ADDLIB $2
+ADDMOD $3
+ADDMOD module.o
+SAVE
+END
+EOM
